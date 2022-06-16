@@ -1,0 +1,29 @@
+.nav-list{
+    width: 66%;
+}
+.nav-list li{
+   padding: 0px 13px;
+font-size: 17px;
+} 
+.second-half {
+    width: 51%;
+}
+.second-half img {
+ width: 80%;
+   
+ border-radius: 30px;
+}    
+
+.section{
+ margin-left:56px;
+ grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr;    
+}
+.Contact-H{
+    margin-top: 272px;
+}
+.register{
+   
+    max-width: 100%;
+    height: 454px;
+    }

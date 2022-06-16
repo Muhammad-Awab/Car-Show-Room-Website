@@ -1,0 +1,239 @@
+*{
+   margin: 0; 
+   padding: 0;
+}
+header{
+    position: sticky;
+    top:0px;
+    cursor: pointer;
+    
+}
+.navbar{
+    display: flex;
+    background-color: blue;   
+    justify-content: center;
+    
+
+}
+.nav-list{
+width: 50%;
+    
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.nav-list li{
+list-style: none;
+padding: 0px 19px;
+font-size:20px;
+}
+.nav-list li  a{
+text-decoration: none;
+color: white;
+
+}
+.nav-list li  a:hover{
+    color: black;
+    font-size: 25px;
+    }
+.logo img{
+    height: 66px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-right: 23px;
+ }
+.searchbar{
+ 
+  width: 50%;
+  text-align: right;
+  padding: 23px 15px ;
+  
+}
+#search{
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.background{
+background: rgba(0, 0, 0, 0.7) url(../img/c.jpg);
+background-size: cover;
+background-blend-mode: darken;
+
+}
+
+/* Main Body */
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 75%;
+    
+}
+.first-section{
+    height: 100vh;
+
+}
+.first-half{
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.second-half{
+width: 30%;
+}
+.second-half img{
+    width: 80%;
+    border: 3px solid black;
+    border-radius: 50px;
+    }
+.text-big{
+    font-size: 34px;
+}    
+.btn{
+    font-size: 20px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid rgb(208, 156, 156);
+    margin-top: 7px;
+   
+}
+
+
+/* Second Section */
+/* .second-section{
+    height: 500px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+} */
+.section{
+  margin-top: 32px;
+  margin-left: 139px;
+  margin-right: 181px;
+    padding-top: 23px;
+   display: grid; 
+   height: 700px;
+  /* background-color: blue; */
+   grid-template-rows: 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
+   row-gap: 12px;
+   column-gap: 12px;
+   
+}
+.items{
+ 
+  /* background-color: yellow; */
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+}
+.img img:hover{
+    height: 250px;
+    width: 370px;
+    cursor: pointer;
+}
+.contact{
+    height: 105vh;
+    background-color: #f7f7f7;
+}
+.Contact-H{
+   text-align: center;
+   margin-top: 10px;
+padding: 28px;
+font-size: 46px;
+}
+.form{
+ max-width: 23vw;  
+ 
+ margin: auto;
+ margin-top: -30px;
+}
+.form input{
+    width: 108%;
+    font-size: 20px;
+    border-radius: 7px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 29px;
+}
+.form textarea{
+    margin-top: 33px;
+    border-radius: 16px;
+    width: 414px;
+    border: 2px solid black;
+    font-size: 27px;
+    padding-left: 8px;
+}
+.submit{
+    color: black;
+margin-top: 18px;
+border: 3px solid black;
+}
+.footer{
+    margin-top: 31px;
+font-size: 25px;
+text-align: center;
+padding: 33px;
+}
+
+/*Register form  */
+.register{
+   height: 464px; 
+   background-color: white;
+   position: relative;
+top: 86px;
+max-width: 31%;
+}
+.register{
+    display: flex;
+    flex-direction: column;
+}
+.register input{
+    font-size: 33px;
+    margin-top: 40px;
+border: 2px solid aqua;
+border-radius: 10px;
+}
+.rbtn{
+    margin-top: 23px;
+padding: 17px 146px 13px 146px;
+font-size: 18px;
+border-radius: 21px;
+border: 2px solid aliceblue;
+color: black;
+background-color: aqua;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    
+}
+.buttons button{
+    font-size: 27px;
+    padding: 2px 27px 0px 45px;
+    border-radius: 10px;
+background-color: aqua;
+border: 2px solid aliceblue;
+padding-left: 32px;
+
+}
+.buttons button:hover{
+background-color: blueviolet;
+font-size: 23px;
+cursor: pointer;
+
+}
+.rbtn:hover{
+    background-color: blueviolet;
+    font-size: 23px;
+    cursor: pointer;   
+}
